@@ -450,12 +450,12 @@ class MultiHeadImageRestorationModel(BaseModel):
         self.net_g = define_network(deepcopy(opt['network_g']))
         self.net_g = self.model_to_device(self.net_g)
 
-        
+        '''
         inp_shape = (3, 256, 256)
         macs, params = get_model_complexity_info(self.net_g, inp_shape, verbose=False, print_per_layer_stat=False)
         print(macs)
         print(params)
-        
+        '''
 
         # load pretrained models
         load_path = self.opt['path'].get('pretrain_network_g', None)
