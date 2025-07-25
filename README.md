@@ -35,12 +35,11 @@ python setup.py develop --no_cuda_ext
 ./datasets/
 └── GoPro/
     ├── train/
-    │   ├── input/
-    │   └── target/
+    │   ├── blur_crops.lmdb/
+    │   └── sharp_crops.lmdb/
     └── test/
-        ├── input.imdb
-        └── target.imdb
-
+        ├── input.imdb/
+        └── target.imdb/
 ```
 
 
