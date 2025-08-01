@@ -57,7 +57,7 @@ torchrun --nproc_per_node=1 train.py -opt ./options/train/GoPro/DCENet-GoPro.yml
 ### 3. Evaluation
 
 
-* Download the pre-trained [GoPro](https://drive.google.com/file/d/1XCcPRU1u1CbgpzqOiH3zBH5FGXlQBWFd/view?usp=drive_link) models and place them in ./dcenet/
+* Download the pre-trained [GoPro](https://drive.google.com/file/d/1XCcPRU1u1CbgpzqOiH3zBH5FGXlQBWFd/view?usp=drive_link) models and place them in ./DCENet/
 
 
 * Download [HIDE](https://drive.google.com/file/d/1XRomKYJF1H92g1EuD06pCQe4o6HlwB7A/view?usp=sharing), [RealBlurR](https://drive.google.com/file/d/1glgeWXCy7Y0qWDc0MXBTUlZYJf8984hS/view?usp=sharing), [RealBlurJ](https://drive.google.com/file/d/1Rb1DhhXmX7IXfilQ-zL9aGjQfAAvQTrW/view?usp=sharing) test datasets and place them in `./datasets/`.
@@ -126,7 +126,7 @@ torchrun --nproc_per_node=1 train.py -opt ./options/train/Defocus-Deblur/Defocus
 
 ### 3. Evaluation
 
-* Download the pre-trained [Single-image](https://drive.google.com/file/d/1gXHRheK_PrQRbwlKnlyhk9RFIn6ggze-/view?usp=drive_link) and [dual-pixel](https://drive.google.com/file/d/1HOaNx22qVP8VHZ2LOmhJmawubNp8RMl9/view?usp=drive_link) models and place them in ./dcenet/
+* Download the pre-trained [Single-image](https://drive.google.com/file/d/1gXHRheK_PrQRbwlKnlyhk9RFIn6ggze-/view?usp=drive_link) and [dual-pixel](https://drive.google.com/file/d/1HOaNx22qVP8VHZ2LOmhJmawubNp8RMl9/view?usp=drive_link) models and place them in ./DCENet/
 
  * Testing on **single-image** defocus deblurring task, run
 ```
