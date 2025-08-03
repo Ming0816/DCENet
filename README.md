@@ -126,7 +126,7 @@ torchrun --nproc_per_node=1 train.py -opt ./options/train/Defocus-Deblur/Defocus
 
 ### 3. Evaluation
 
-* Download the pre-trained [Single-image](https://drive.google.com/file/d/1gXHRheK_PrQRbwlKnlyhk9RFIn6ggze-/view?usp=drive_link) and [dual-pixel](https://drive.google.com/file/d/1HOaNx22qVP8VHZ2LOmhJmawubNp8RMl9/view?usp=drive_link) models and place them in ./DCENet/
+* Download the pre-trained [Single-image](https://drive.google.com/file/d/1gXHRheK_PrQRbwlKnlyhk9RFIn6ggze-/view?usp=drive_link) and [dual-pixel](https://drive.google.com/file/d/10879vSuKa1p2q9pCi7epI0xQd8SP0CeE/view?usp=drive_link) models and place them in ./DCENet/
 
  * Testing on **single-image** defocus deblurring task, run
 ```
